@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    list-style: none;
+}
+:root{
+    --cor01:#4A3117;
+    --cor02:#806542;
+    --cor03:#a98d65;
+    --cor04:#e0a547;
+    --cor05:#b7cc80;
+}
+.nav-link{
+    color: #4A3117;
+}
+.nav-link:hover{
+    color: var(--cor01);   
+    text-decoration-color: var(--cor04);
+    text-decoration-line: underline;
+    text-underline-offset: 0.4em;
+}
+nav button{
+    color: var(--cor01);
+}
+
+#introd{         
+    height: 60vh;
+    background-image: url(../imagens/indice/fundoIndex.png);  
+    background-size: cover;    
+    background-position: center;
+    background-attachment: fixed;      
+}
+
+#home-hist{
+background-color: var(--cor05);
+border-radius: 2em;  
+padding: 0 1.5em !important; 
+}
+#home-texto{    
+    text-align: justify;       
+    font-size: 1.1em;
+    text-indent: 1.5rem;
+}
+#home-texto a{   
+    color: #4062BB;
+    text-decoration: none;
+}
+#backtop{    
+    text-decoration: none;
+    background-color: #000;
+    color: #fff; 
+    margin-top: 50px;   
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+    border-radius: 20px;
+}
+footer{    
+    padding: 1em 0 2.5em 0;    
+    color: #fff;
+    background: #000;
+    text-align: center;
+    
+}
+footer h5{
+    padding-bottom: 3px;
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+    
+}
+.sobre{
+background-color: var(--cor05);
+border-radius: 49px; 
+font-size: 1.3em;
+text-align: center;
+}
+
+

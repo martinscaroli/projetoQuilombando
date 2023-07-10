@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
+:root{
+    --cor01:#4A3117;
+    --cor02:#806542;
+    --cor03:#a98d65;
+    --cor04:#e0a547;
+    --cor05:#b7cc80;
+    --cor06: #E8CB9A;
+}
+
+.titulo{
+    color: var(--cor01);
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+.bgEstado{
+    background-color: var(--cor05);
+}
+.lista-estado-item{
+    color: var(--cor01);
+    font-size: 1.4em;
+}
+.lista-estado-item:hover{
+    color: rgb(0, 0, 119);
+    text-decoration: none;
+}
+.bgComunidades{
+    background-color: var(--cor05);
+    border-radius: 40px;    
+}
+.comunidade-texto{
+    text-align: justify;    
+    font-size: 1.1em;
+    height: 350px;
+    overflow-y: scroll;  
+    padding: 0 0.6em;      
+}
+.comunidade-texto::-webkit-scrollbar{
+    background-color: var(--cor05);
+    width:0.5em;
+}
+.comunidade-texto::-webkit-scrollbar-thumb{    
+    background-color:var(--cor03);
+    border-radius: 60px;
+}
