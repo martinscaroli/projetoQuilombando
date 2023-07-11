@@ -34,9 +34,9 @@ nav button{
 #home-hist{
 background-color: var(--cor05);
 border-radius: 2em;  
-padding: 0 1.5em !important; 
 }
 #home-texto{    
+    padding: 0 1.5em !important;
     text-align: justify;       
     font-size: 1.1em;
     text-indent: 1.5rem;
